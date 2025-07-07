@@ -1,0 +1,358 @@
+            {% extends 'base.html' %}
+            {% block content %}
+
+            <!-- Hero Section -->
+            <section class="min-h-screen bg-black text-white px-6 py-20 relative flex flex-col-reverse md:flex-row items-center justify-between"
+                    style="background: linear-gradient(90deg, #0d010a 30%, #b0939a 100%);" data-aos="fade-up">
+
+            <!-- Top Right Social Icons -->
+            <div class="absolute top-4 right-4 flex items-center gap-3 text-white text-lg sm:text-xl">
+                <a href="https://linkedin.com/in/nikhil-goral-340266259" target="_blank" class="hover:scale-110 transition">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="w-6 h-6">
+                </a>
+                <a href="https://github.com/NikhilGoral28" target="_blank" class="hover:scale-110 transition">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="w-6 h-6">
+                </a>
+                <a href="https://www.instagram.com/iam_nikhilng28/" target="_blank" class="hover:scale-110 transition">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="w-6 h-6">
+                </a>
+                <a href="https://x.com/" target="_blank" class="hover:scale-110 transition">
+                <img src="https://abs.twimg.com/responsive-web/client-web/icon-ios.b1fc7275.png" alt="X" class="w-6 h-6 bg-white rounded-full p-1">
+                </a>
+                <a href="https://leetcode.com/u/nikhilgoral28/" target="_blank" class="hover:scale-110 transition">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" class="w-6 h-6">
+                </a>
+            </div>
+
+            <!-- Image on Left -->
+            <div class="md:w-1/2 flex justify-center mb-8 md:mb-0">
+                <img src="{{ url_for('static', filename='images/ai.png') }}" class="w-48 sm:w-64 h-auto" alt="AI image">
+            </div>
+
+            <!-- Content on Right -->
+            <div class="md:w-1/2 space-y-4 text-center md:text-left">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
+                Hello, I am <br /> <span class="text-purple-400">Nikhil Goral</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-black-300">AI/ML Engineer, Data Scientist & Fullstack Developer  </p>
+                <p class="text-black-400 text-sm sm:text-base">
+                I'm a <strong>Tech Enthusiast</strong> and a <strong>Passionate Data Scientist</strong> currently pursuing my final year of B.Tech in
+                <strong>Computer Science (Data Science)</strong>. I love solving real-world problems using intelligent systems.
+                </p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4 mt-6">
+                <a href="https://github.com/NikhilGoral28" class="px-4 py-2 border rounded-full text-sm hover:bg-white hover:text-black transition">
+                    <i class="fab fa-github mr-2"></i> GitHub
+                </a>
+                <a href="#contact" class="px-4 py-2 border rounded-full text-sm hover:bg-white hover:text-black transition">
+                    📬 Contact Me
+                </a>
+                </div>
+            </div>
+            </section>
+
+
+                    <!-- About Section -->
+            <section id="about" class="py-20 px-6 bg-black text-white flex flex-col md:flex-row items-center justify-between gap-12"
+                    style="background: linear-gradient(90deg, #0d010a 30%, #b0939a 100%);" data-aos="fade-up">
+            <div class="md:w-1/2">
+                <h2 class="text-3xl font-bold mb-6">About Me</h2>
+                <p class="text-md text-gray-300 leading-relaxed">
+                I am a final‑year B.Tech student specializing in Data Science. Skilled in Python, Machine Learning, and full‑stack development.
+                I build AI-powered web applications and intelligent systems optimized for real‑world impact. Experienced in model building, EDA,
+                feature engineering, REST API integration, and deployment. I’m preparing to contribute as a Data Scientist, ML Engineer, or AI Developer.
+                </p>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <!-- Dummy image for About section -->
+                <img src="{{ url_for('static', filename='images/nikhilphoto.jpg') }}" alt="AI Illustration" class="w-40 h-40 object-cover rounded-full shadow-lg">
+            </div>
+            </section>
+            
+                    <!-- Skills Section with Icons -->
+            <section id="skills" class="min-h-screen bg-black text-white px-6 py-20" style="background: linear-gradient(90deg, #0d010a 30%, #b0939a 100%);" data-aos="fade-up">
+                    <div class="max-w-6xl mx-auto px-4">
+                        <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 text-center">
+
+                        <div>
+                            <h3 class="text-xl font-semibold mb-4 text-gray-300">Programming Languages</h3>
+                            <div class="flex flex-wrap justify-center gap-4">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="w-10 h-10" title="Python">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="w-10 h-10" title="Java">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" class="w-10 h-10" title="C++">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="w-10 h-10" title="SQL">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" class="w-10 h-10" title="C">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" class="w-10 h-10" title="R">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-10 h-10" title="HTML">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" class="w-10 h-10" title="Flutter">
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-semibold mb-4 text-gray-300">Frameworks & Libraries</h3>
+                            <div class="flex flex-wrap justify-center gap-4">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" class="w-10 h-10" title="Flask">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" class="w-10 h-10" title="Pandas">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" class="w-10 h-10" title="NumPy">
+                            <img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" title="Scikit-learn" class="w-10 h-10 bg-white rounded p-1">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" class="w-10 h-10" title="TensorFlow">
+                            <img src="https://logo.svgcdn.com/l/seaborn.svg" class="w-10 h-10" title="Seaborn">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" class="w-10 h-10" title="Matplotlib">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/opencv-3628971-3030285.png" class="w-10 h-10" title="opencv">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" class="w-10 h-10" title="PyTorch">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" class="w-10 h-10" title="FastAPI">
+                            <img src="https://cdn.simpleicons.org/django/092e20?size=64" class="w-10 h-10" title="Django">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" class="w-10 h-10" title="Keras">
+                            <img src="https://cdn.jsdelivr.net/gh/PKGamma/beautifulsoup-logo@master/logo.svg" class="w-10 h-10" title="BeautifulSoup">
+                            <img src="https://cdn.simpleicons.org/nltk/00758F?size=64" class="w-10 h-10" title="NLTK">
+                            <img src="https://cdn.jsdelivr.net/gh/worldvectorlogo/logos/src/langchain/langchain.svg" class="w-10 h-10" title="langchain">
+                            </div>      
+                        </div>
+
+                        <div>  
+                            <h3 class="text-xl font-semibold mb-4 text-gray-300">Databases</h3>
+                            <div class="flex flex-wrap justify-center gap-4">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" class="w-10 h-10" title="MongoDB">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class=   "w-10 h-10" title="MySQL">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" class="w-10 h-10" title="PostgreSQL">
+                            <img src="https://logo.svgcdn.com/l/supabase.png" class="w-10 h-10 bg-white rounded p-1" title="Supabase">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" class="w-10 h-10" title="Firebase">
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-semibold mb-4 text-gray-300">Tools</h3>
+                            <div class="flex flex-wrap justify-center gap-4">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="w-10 h-10" title="Git">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="w-10 h-10" title="GitHub">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" class="w-10 h-10" title="VS Code">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" class="w-10 h-10" title="Anaconda">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" class="w-10 h-10" title="Android Studio">
+                            <img src="https://logo.svgcdn.com/s/googlecolab-dark.png" class="w-10 h-10 bg-white rounded p-1" title="Google Colab">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" class="w-10 h-10" title="Jupyter Notebook">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" class="w-10 h-10" title="PowerBI">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" class="w-10 h-10" title="Figma">
+                            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tableau.svg" class="w-10 h-10" title="Tableau">
+                            </div>
+                        </div>
+
+                        <div>
+                        <h3 class="text-xl font-semibold mb-4 text-gray-300">Others</h3>
+                        <div class="flex flex-wrap justify-center gap-4">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" class="w-10 h-10" title="REST APIs">
+                            <img src="https://logo.svgcdn.com/d/kaggle-original.png" class="w-10 h-10 bg-white rounded p-1" title="Kaggle">
+                            <img src="https://logo.svgcdn.com/s/n8n-dark.png" class="w-10 h-10 bg-white rounded p-1" title="n8n">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" class="w-10 h-10" title="Docker">
+                            <img src="https://huggingface.co/front/assets/huggingface_logo.svg" class="w-10 h-10" title="Huggingface">
+                            <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" class="w-10 h-10" title="AWS">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" class="w-10 h-10" title="Azure">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" class="w-10 h-10" title="Windos">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" class="w-10 h-10" title="Apple">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" class="w-10 h-10" title="Linux">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" class="w-10 h-10" title="Ubuntu">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Kali-dragon-icon.svg" class="w-10 h-10" title="Kali Linux">
+                        </div>
+                        </div>
+
+
+                        </div>
+                    </div>
+                    </section>
+
+        <!-- What I Offer Section -->
+        <section id="offerings" class="py-20 bg-black text-white px-6" style="background: linear-gradient(90deg, #0d010a 30%, #b0939a 100%);" data-aos="fade-up">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-10">What I Offer</h2>
+            <div class="grid md:grid-cols-2 gap-10 text-left">
+
+            <!-- Data Analytics -->
+            <div>
+                <h3 class="text-xl font-semibold text-purple-300 mb-2">📊 Data Analytics</h3>
+                <ul class="list-disc list-inside text-gray-300 space-y-2">
+                <li>Clean and analyze large datasets to uncover actionable insights</li>
+                <li>Design interactive dashboards for real-time business reporting</li>
+                <li>Translate raw data into decision-ready visualizations</li>
+                </ul>
+            </div>
+
+            <!-- Data Science -->
+            <div>
+                <h3 class="text-xl font-semibold text-purple-300 mb-2">🧪 Data Science</h3>
+                <ul class="list-disc list-inside text-gray-300 space-y-2">
+                <li>Build predictive models to solve business problems</li>
+                <li>Develop recommendation systems and forecasting tools</li>
+                <li>Deliver end-to-end data workflows with clear outcomes</li>
+                </ul>
+            </div>
+
+            <!-- ML & AI -->
+            <div>
+                <h3 class="text-xl font-semibold text-purple-300 mb-2">🧠 Machine Learning & AI</h3>
+                <ul class="list-disc list-inside text-gray-300 space-y-2">
+                <li>Design and deploy custom ML/AI solutions for automation and optimization</li>
+                <li>Integrate models into live environments via APIs</li>
+                <li>Monitor performance and scale solutions as needed</li>
+                </ul>
+            </div>
+
+            <!-- Deep Learning & NLP -->
+            <div>
+                <h3 class="text-xl font-semibold text-purple-300 mb-2">🧬 Deep Learning & NLP</h3>
+                <ul class="list-disc list-inside text-gray-300 space-y-2">
+                <li>Apply deep learning to image, text, and speech-based tasks</li>
+                <li>Build intelligent systems using computer vision and language models</li>
+                <li>Create smart assistants, chatbots, and AI content tools</li>
+                </ul>
+            </div>
+
+            <!-- Web & App Development -->
+            <div class="md:col-span-2">
+                <h3 class="text-xl font-semibold text-purple-300 mb-2">🌐 Web & App Development</h3>
+                <ul class="list-disc list-inside text-gray-300 space-y-2">
+                <li>Build fast, responsive, full-stack web apps for data and AI use cases</li>
+                <li>Develop cross-platform mobile apps for startups and MVPs</li>
+                <li>Integrate AI features into real-world products</li>
+                </ul>
+            </div>
+
+            </div>
+        </div>
+        </section>
+
+                    <!-- Education Section -->
+            <section id="education" class="py-20 px-6 bg-black text-white flex flex-col md:flex-row items-center justify-between gap-12"
+                    style="background: linear-gradient(90deg, #0d010a 30%, #b0939a 100%);" data-aos="fade-up">
+                    <div class="max-w-6xl mx-auto px-4">
+                    <h2 class="text-3xl font-bold text-center mb-10">Education</h2>
+                    <div class="grid md:grid-cols-2 gap-8">
+
+                    <div>
+                        <h3 class="text-lg font-semibold text-blue-300 mb-1">Dr. D. Y. Patil Pratishthan's College of Engineering Salokhenagar, Kolhapur</h3>
+                        <p class="font-semibold text-white">B.Tech in Computer Science & Engineering (Data Science)</p>
+                        <p class="text-gray-400">Shivaji University, Kolhapur</p>
+                        <p class="text-gray-400">2026</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-lg font-semibold text-blue-300 mb-1">Guruvarya Gurunath Vithalrao Patil jr. College, Halkarni, Chandgad, Kolhapur</h3>
+                        <p class="font-semibold text-white">Class XII</p>
+                        <p class="text-gray-400">Maharashtra State Board</p>
+                        <p class="text-gray-400">2022</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-lg font-semibold text-blue-300 mb-1">Sanjay Gandhi Highschool, Naganwadi, Chandgad</h3>
+                        <p class="font-semibold text-white">Class X</p>
+                        <p class="text-gray-400">Maharashtra State Board</p>
+                        <p class="text-gray-400">2020</p>
+                    </div>
+                    </div>
+                </div>
+                </section>
+                
+            <!-- Experience Section -->
+            <section id="experience" class="py-20 bg-black text-white px-6" style="background: linear-gradient(90deg, #0d010a 30%, #b0939a 100%);" data-aos="fade-up">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-10">Experience</h2>
+        <!-- Python Developer Role -->
+            <div class="md:col-span-2 mb-12">
+                <h3 class="text-xl font-semibold text-blue-300 mb-1">Python Developer</h3>
+                <p class="text-sm text-gray-400 mb-2">Anvtistar Pvt. Ltd., Pune | July 2025 – Present</p>
+                <ul class="list-disc list-inside text-gray-300 space-y-2">
+                <li>Developed and maintained scalable Python-based backend systems.</li>
+                <li>Worked on data-driven applications integrating machine learning models.</li>
+                <li>Collaborated with frontend and DevOps teams to deploy APIs and tools.</li>
+                </ul>
+            </div>
+
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Left Image -->
+                <div class="flex justify-center">
+                    <img src="{{ url_for('static', filename='images/Mentorship.jpeg') }}" alt="Experience" class="w-90 h-60 rounded-lg shadow">
+                </div>
+
+                <!-- Right Text -->
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-300 mb-1">Leadership & Mentorship</h3>
+                    <p class="text-sm text-gray-400 mb-2">Local School / DataTech Club | March 2025</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                    <li>Delivered an interactive session on emerging technologies to 8th–9th grade students.</li>
+                    <li>Introduced students to programming fundamentals, AI, and real-world applications of ChatGPT.</li>
+                    <li>Developed learning materials and engaged students through hands-on demonstrations.</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            </section>
+
+
+                    <!-- Projects -->
+            <section id="projects" class="min-h-screen bg-black text-white px-6 py-20 flex flex-col justify-center items-center gap-6"
+                    style="background: linear-gradient(90deg, #0d010a 30%, #b0939a 100%);" data-aos="fade-up">
+                        <div class="max-w-5xl mx-auto px-4">
+                        <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-gray-800 p-4 rounded-lg shadow">
+                            <img src="{{ url_for('static', filename='images/swasthapath.png') }}" class="w-full h-40 object-cover rounded">
+                            <h3 class="text-xl mt-2 font-semibold">SwasthaPath (HDMS)</h3>
+                            <p class="text-sm text-gray-400 mb-2">Flutter + Supabase system to report disease outbreaks with real-time alerts.</p>
+                            <a href="https://github.com/NikhilGoral28" target="_blank" class="text-blue-400 hover:underline text-sm">GitHub Repo</a>
+                        </div>
+                        <div class="bg-gray-800 p-4 rounded-lg shadow">
+                            <img src="{{ url_for('static', filename='images/mrs.jpg') }}" class="w-full h-40 object-cover rounded">
+                            <h3 class="text-xl mt-2 font-semibold">Movie Recommender</h3>
+                            <p class="text-sm text-gray-400 mb-2">Content-based filtering using Pandas, NLTK, cosine similarity, OMDb API.</p>
+                            <a href="https://github.com/NikhilGoral28/movie_recomender_system.git" target="_blank" class="text-blue-400 hover:underline text-sm">GitHub Repo</a>
+                        </div>
+                        <div class="bg-gray-800 p-4 rounded-lg shadow">
+                            <img src="{{ url_for('static', filename='images/personal_H_a.png') }}" class="w-full h-40 object-cover rounded">
+                            <h3 class="text-xl mt-2 font-semibold">Personal Health Assistant</h3>
+                            <p class="text-sm text-gray-400 mb-2">SVC-based ML model for disease prediction using Flask + MySQL.</p>
+                            <a href="https://github.com/NikhilGoral28/Personal_healthcare_assistant_AI.git" target="_blank" class="text-blue-400 hover:underline text-sm">GitHub Repo</a>
+                        </div>
+                        </div>
+                    </div>
+                    </section>
+
+                <!-- Contact Section -->
+            <section id="contact" class="min-h-screen bg-black text-white px-6 py-20 flex flex-col justify-center items-center gap-6"
+                    style="background: linear-gradient(90deg, #0d010a 30%, #b0939a 100%);" data-aos="fade-up">
+                    <div class="max-w-4xl mx-auto px-4 text-center">
+                    <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+                    <p class="text-md text-gray-300 mb-6">Feel free to reach out for collaborations, projects, or just a chat!</p>
+                    <a href="mailto:nikhil.goral28@gmail.com" class="px-6 py-2 border rounded-full hover:bg-white hover:text-black transition inline-block">
+                    ✉️ nikhilgoral587@gmail.com
+                    </a>
+
+                    <!-- Social Icons Below Email -->
+                    <div class="mt-6 flex justify-center gap-6">
+                    <a href="https://linkedin.com/in/nikhil-goral-340266259" target="_blank" class="hover:scale-110 transition">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="w-6 h-6">
+                    </a>
+                    <a href="https://github.com/NikhilGoral28" target="_blank" class="hover:scale-110 transition">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="w-6 h-6">
+                    </a>
+                    <a href="https://www.instagram.com/iam_nikhilng28/" target="_blank" class="hover:scale-110 transition">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="w-6 h-6">
+                    </a>
+                    <a href="https://x.com/" target="_blank" class="hover:scale-110 transition">
+                        <img src="https://abs.twimg.com/responsive-web/client-web/icon-ios.b1fc7275.png" alt="X" class="w-6 h-6 bg-white rounded-full p-1">
+                    </a>
+                    <a href="https://leetcode.com/u/nikhilgoral28/" target="_blank" class="hover:scale-110 transition">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" class="w-6 h-6">
+                    </a>
+                    </div>
+                </div>
+                </section>
+
+
+            <!-- Footer -->
+            <section id="footer" class="py-6 bg-black text-center text-sm text-gray-500 border-t border-gray-800">
+            <p>© 2025 nikhilgoral587@gmail.com | All rights reserved</p>
+            </section>
+
+            {% endblock %}
+
+            -------------------------------------------------------

@@ -1,0 +1,4 @@
+body {
+    scroll-behavior: require('smooth-scroll-behavior');
+    font-family: 'Inter', sans-serif;
+}
